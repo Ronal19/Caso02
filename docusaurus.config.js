@@ -5,16 +5,13 @@ const config = {
   title: 'MANUALES EN LINEA',
   tagline: 'Al alcance de tus manos',
   
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // Importante si nuestro sitio web se subirá en github.io
+  url: 'https://Ronal19.github.io',
+  baseUrl: '/Caso02',
   organizationName: 'Ronal19', // Usually your GitHub org/user name.
   projectName: 'Caso02', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // Se crea (Documentación Docusaurus Guides/Deployment)
+  trailingSlash: false, // Se crea (Documentación Docusaurus Guides/Deployment)
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
